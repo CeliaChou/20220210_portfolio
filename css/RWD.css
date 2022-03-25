@@ -1,0 +1,15 @@
+@media(max-width:767px){
+    .main_left{
+        justify-content: center;
+        text-align: center;
+    }
+    .me{
+        width: auto;
+        margin: 0 auto;
+    }
+    .banner_img_box img{
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+}

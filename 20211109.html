@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh_TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pei-Chun Chou's portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/RWD.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">C</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse my_navbar_collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="index".html#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index".html#portfolio">Portfolio</a>
+                    </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <section id='home' class="mb-5">
+        <div class='container'>
+            <div class='row justify-content-center'>
+                <div class="col-md-12">
+                    <!-- <img  class="content_img" src="img/20211008_fb_share.jpg"> -->
+                    <div class="content_title">
+                        <h2>【平台】-雙11活動</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 content_word">
+                    <div class="small_title">負責項目</div>
+                    <p>功能討論、視覺製作、網頁切版。</p>
+                    <div class="small_title">需求規格</div>
+                    <p>電腦版網頁，支援RWD。</p>
+                    <div class="small_title">設計重點</div>
+                    <p>
+                        <ol>
+                            <li>視覺:</li>
+                        </ol>
+                        本網頁是配合雙11製作的平台頁面，由於整體就是嘉年華的主題，因此在製作的時候就以嘉年華的歡樂形式來做思考，在尋找參考資料時也歸納出常用的顏色，並選用了馬戲團帳的紅、黃色做發想，
+整體的裝飾則是採用了許多馬戲團設計會有的燈飾、歌德字體以及布幕舞台等物件，而各個遊戲像是節目單一樣的陳列在畫面上，獎勵則是使用了票券、佈告欄的形式，希望將整體頁面風格統一，並且可以
+容易讓使用者感受到嘉年華的氛圍。
+                        <ol start="2">
+                            <li>功能:</li>
+                        </ol>
+                        整體上主要是讓不同尺寸可以舒適閱讀，也因為這樣，在手機板上就沒有放入過多裝飾，而是採用了色塊底來配合縮放，而為了讓上方的亮燈動畫可以順利在手機、電腦上不會有錯誤，也參考了不少製作方法，
+原本是將圖片根據分區去做切割，但發現頁面載入時總是會出現白底的狀況，因此最後決定讓網頁載入時就已經預先載入整塊，再使用JS語法將單塊載入，使得該動畫在手機上也可以順利使用。
+                    </p>
+                    <div class="small_title">使用工具</div>
+                    <p>photoshop、Illustrator、VScode(HTML、CSS3、JavaScript、JQuery)</p>
+                    <div class="small_title">展示網址</div>
+                    <a class="DEMO" href="https://celiachou.github.io/20211109_1111/" target="_blank">https://celiachou.github.io/20211109_1111/</a>
+                    <div class="small_title">設計示意圖</div>
+                    <img  class="img-fluid" src="img/1111.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
