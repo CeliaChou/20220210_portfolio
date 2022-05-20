@@ -13,3 +13,14 @@
         height: auto;
     }
 }
+@media(max-width:415px){
+    .btn-link{
+        font-size: 18px;
+    }
+}
+@media(max-width:280px){
+    .btn-link{
+        font-size: 14px;
+        padding: 5px;
+    }
+}
